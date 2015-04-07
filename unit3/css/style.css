@@ -5,6 +5,7 @@ body {
 	background: url("http://amsterdambrewhouse.com/wp-content/uploads/2014/06/northlounge1.jpg");
 	color: #fff;
 	font-family: Helvetica;
+
 }
 
 h1 {
@@ -12,5 +13,5 @@ h1 {
 }
 
 #slogan {
-
+	font-style: italic;
 }

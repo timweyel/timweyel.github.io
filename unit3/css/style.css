@@ -15,3 +15,7 @@ h1 {
 #slogan {
 	font-style: italic;
 }
+
+hr {
+	width: 200px;
+}

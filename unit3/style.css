@@ -1,13 +1,13 @@
 body {
+	text-align: center;
 	background-size: cover;	
 	background: url("http://amsterdambrewhouse.com/wp-content/uploads/2014/06/northlounge1.jpg")
-	text-align: center;
 	color: #fff;
 	font-family: Helvetica;
 }
 
 h1 {
-	color: #663300;
+	color: #000000;
 }
 
 #slogan {

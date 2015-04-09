@@ -15,10 +15,18 @@ h1 {
 	font-family: 'Lobster';
 }
 
+hr {
+	width: 200px;
+}
+
 #slogan {
 	font-style: italic;
 }
 
-hr {
-	width: 200px;
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    /*height: 100px;*/
+    width: 100%;
 }

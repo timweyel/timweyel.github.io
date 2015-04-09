@@ -24,9 +24,11 @@ hr {
 }
 
 #footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height:100px;
 }

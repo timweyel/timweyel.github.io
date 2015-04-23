@@ -29,9 +29,9 @@
         <text>Login</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="442" y="141" w="-1" h="-1" measuredW="511" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="341" y="141" w="-1" h="-1" measuredW="712" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>The%20one-stop%20shop%20for%20all%20of%20your%20gifting%20needs%21</text>
+        <text>Registries%20Galore%21%20The%20one-stop%20shop%20for%20all%20of%20your%20gifting%20needs%21</text>
       </controlProperties>
     </control>
     <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="42" y="5" w="1312" h="1121" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
@@ -147,9 +147,9 @@
         <text>Just%20set%20up%20your%20registry%2C%20tell%20your%20friends%20and%20family%2C%20and%20let%20them%20shop%2C%20shop%2C%20shop%21%21%20All%20online%20and%20done%20from%20the%20convenience%20of%20their%20home.</text>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::SubTitle" x="409" y="290" w="-1" h="-1" measuredW="577" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::SubTitle" x="443" y="293" w="-1" h="-1" measuredW="508" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Choose%20an%20event%20below%20to%20start%20building%20your%20registry</text>
+        <text>Choose%20an%20event%20to%20start%20building%20your%20registry</text>
       </controlProperties>
     </control>
     <control controlID="35" controlTypeID="com.balsamiq.mockups::Button" x="1035" y="1061" w="-1" h="-1" measuredW="64" measuredH="32" zOrder="16" locked="false" isInGroup="-1">
@@ -215,6 +215,54 @@
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="357" y="119" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Ch1%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="365" y="27" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Cnav%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Label" x="99" y="27" w="-1" h="-1" measuredW="27" measuredH="21" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>.logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="1121" y="20" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3C.login%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::HRule" x="50" y="284" w="1304" h="-1" measuredW="100" measuredH="10" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="50" y="6" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Cheader%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="439" y="183" w="-1" h="-1" measuredW="33" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Ch2%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="57" y="293" w="-1" h="-1" measuredW="133" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Csection%20id%3D%22events%22%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::HRule" x="42" y="543" w="1304" h="-1" measuredW="100" measuredH="10" zOrder="33" locked="false" isInGroup="-1"/>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="57" y="555" w="-1" h="-1" measuredW="184" measuredH="21" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Csection%20id%3D%22canned_search%22%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::HRule" x="42" y="756" w="1304" h="-1" measuredW="100" measuredH="10" zOrder="35" locked="false" isInGroup="-1"/>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="53" y="777" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Cfooter%3E</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>

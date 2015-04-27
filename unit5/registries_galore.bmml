@@ -231,9 +231,9 @@
         <text>.logo</text>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="1121" y="20" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="1121" y="20" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%3C.login%3E</text>
+        <text>%3C%23login%3E</text>
       </controlProperties>
     </control>
     <control controlID="63" controlTypeID="com.balsamiq.mockups::HRule" x="50" y="284" w="1304" h="-1" measuredW="100" measuredH="10" zOrder="29" locked="false" isInGroup="-1"/>
@@ -262,6 +262,11 @@
     <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="53" y="777" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="36" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%3Cfooter%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="179" y="329" w="-1" h="-1" measuredW="176" measuredH="21" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3Cfigure%3E%20and/or%20%3Cfigcaption%3E</text>
       </controlProperties>
     </control>
   </controls>

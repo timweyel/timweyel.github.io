@@ -129,7 +129,13 @@ a {
 
 #birthday {
 	position: absolute;
-	left: 810px;
+	left: 1040px;
+	top: 323px;
+}
+
+#newHome {
+	position: absolute;
+	left: 1270px;
 	top: 323px;
 }
 

@@ -139,6 +139,18 @@ a {
 	top: 323px;
 }
 
+#topGifts {
+	position: absolute;
+	left: 580px;
+	top: 550px;
+}
+
+#giftIdeas {
+	position: absolute;
+	left: 580px;
+	top: 550px;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;

@@ -103,6 +103,10 @@ a {
 	margin: 0 0 30px 0;
 }
 
+#eventsImages {
+	display: inline-block;
+}
+
 #events {
 	margin: 40px 0 0 20px;
 }
@@ -112,7 +116,9 @@ a {
 }
 
 #graduation {
-	position: relative;
+	position: absolute;
+	left: 650px;
+	top: 320px;
 }
 
 .clearfix:after {

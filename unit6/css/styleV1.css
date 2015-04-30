@@ -1,0 +1,202 @@
+
+h1 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+h2 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h3 {
+	
+}
+
+nav {
+	background-color: #FFD9FF;
+	margin: 20px auto;
+	width: 510px;
+/*	border: 1px solid #000;
+*/	text-decoration: none;
+	display: block;
+}
+
+nav a {
+	background-color: #FFD9FF;
+	text-decoration: none;
+	color: #000;
+	padding: 20px;
+	display: inline-block;
+}
+
+nav a:hover {
+	background-color: #ED99FF;
+}
+
+hr {
+	width: 500px;
+	float: left;
+	/*size="3";*/
+	padding: 0 0 20px 0;
+	display: block;
+}
+
+/*#ul {
+	display: inline-block;
+}*/
+
+#main {
+	margin: 20px 400px 20px 300px;
+	background: #F8EDF6;
+/*	border: 1px solid #000;
+*/}
+
+#logo {
+/*	margin: 0 0 0 20px;*/
+	position: absolute;
+	left: 330px;
+	top: 65px;
+/*	width: 100px;
+*/}
+
+#onestop {
+	margin: 0 auto;
+	width: 615px;
+/*	border: 1px solid #000;*/
+}
+
+#setup {
+	padding: 2em;
+}
+
+#login {
+	border: 1px solid #000;
+	border-radius: 5px; 
+	position: absolute;
+	top: 30px;
+	right: 600px;
+	padding: 4px;
+	background: #FFCCFF;
+}
+
+#signup {
+	border: 1px solid #000;
+	border-radius: 5px; 
+/*	float: right;
+	margin: 0 200px 0 0;*/
+	position: absolute;
+	top: 30px;
+	right: 485px;
+	padding: 4px;
+	background: #FFCCFF;
+}
+
+#SearchWidget {
+	border: 1px solid #000;
+	border-radius: 5px; 
+	position: absolute;
+	top: 80px;
+	right: 460px;
+	width: 173px;
+	padding: 20px;
+	background: #FFCCFF;
+}
+
+#form-group {
+	padding: 10px 0 10px 0;
+}
+
+#searchButton {
+	vertical-align: middle;
+	text-align: center;
+	width: 80px;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #ED99FF;
+}
+
+#eventstitle {
+	margin: 0 0 30px 0;
+}
+
+#eventsImages {
+	display: inline-block;
+}
+
+#events {
+	margin: 40px 0 0 20px;
+}
+
+#wedding {
+	margin: 20px 0 0 30px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#graduation {
+	position: absolute;
+	left: 580px;
+	top: 323px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#baby {
+	position: absolute;
+	left: 810px;
+	top: 323px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#birthday {
+	position: absolute;
+	left: 1040px;
+	top: 323px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#newHome {
+	position: absolute;
+	left: 1270px;
+	top: 323px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#articlesTitle {
+	margin: 60px 0 0 120px ;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.caption {
+	display: block;
+	text-align: center;
+}
+
+.articles {
+	margin: 40px 0 0 40px;
+}
+
+.articleRow {
+/*	display: list-item;
+*/}
+
+.articleTitle {
+	display: inline-block;
+}
+
+.articleSummary {
+	position: block;
+}
+
+#searchButton:hover {
+	background-color: #ED99FF;
+}

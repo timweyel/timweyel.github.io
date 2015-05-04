@@ -15,7 +15,10 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+h1 {	padding: 65px 0 5px 0; 
+	font-weight: 600;
+	width: 650px;
+	text-align: center;
 }
 
 h2 {
@@ -159,8 +162,8 @@ a {
 
 #articleRow {
 	float: right;
-	display: inline-block;
-	padding: 0 0 0 20px;
+/*	display: inline-block;
+*/	padding: 0 0 0 20px;
 }
 
 .clearfix:after {

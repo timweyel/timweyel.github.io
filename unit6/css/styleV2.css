@@ -45,6 +45,7 @@ h5 {
 p { 
 	font-size: 16px;
 	width: 650px;
+	font-weight: 500;
 }
 
 header {
@@ -141,12 +142,12 @@ a {
 	margin: 0 0 0 115px;
 }
 
-#events a:hover {
-	box-shadow: 0px 0px 1px #777;
+#events img:hover {
+	box-shadow: 0px 0px 3px #777;
 }
 
 #events img {	
-	padding: 0 10px 0 10px;
+	margin: 0 10px 0 10px;
 }
 
 #articles {
@@ -159,18 +160,8 @@ a {
 #articleRow {
 	float: right;
 	display: inline-block;
-	padding-left: 20px;
+	padding: 0 0 0 20px;
 }
-
-/*#articleTitle {
-	float: left;
-	display: inline-block;
-}
-
-#articleSummary {
-	float: left;
-	display: block;
-}*/
 
 .clearfix:after {
 	visibility: hidden;

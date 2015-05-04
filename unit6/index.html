@@ -13,7 +13,7 @@
 	<body>
 		<div id="wrapper">		
 			<header class="clearfix">
-				<div id="logo"><img src="images/logo.jpg" alt="Registries Galore!" title="Registries Galore logo"></div>
+				<div id="logo"><img src="images/logo.jpg" alt="Registries Galore!" title="Registries Galore logo" width="275" height="185"></div>
 				<div>
 					<nav>
 						<ul>
@@ -37,11 +37,11 @@
 						</ul>
 						<form id="form">
 							<h4>Search for a registry</h4>
-							<input type="text" name="firstName" title="First Name" placeholder="First name">
-							<br>
-							<input type="text" name="lastName" title="LastName" placeholder="Last name">
-							<br>
-							<input id="submitButton" type="submit" value="Search">
+							<div>
+							<input type="text" name="firstName" title="FirstName" placeholder="First name" id="formField">
+							<input type="text" name="lastName" title="LastName" placeholder="Last name" id="formField">
+							<input type="submit" value="Search" id="search">
+							</div>
 						</form>
 					</nav>
 				</div>		
@@ -63,26 +63,31 @@
 				</div>
 			</section>
 
-		<!-- 	<section id="articlesTitle">
-				<p>Articles</p><ul class="articles">	
-							<li class="articleRow">
-								<div>
-									<a href="#">
-									<img src="https://raw.githubusercontent.com/timweyel/timweyel.github.io/master/unit6/images/wedding-registry-tips.png" alt="Wedding Registry Tips" title="wedding registry tips" width="100px" height="80px"></a>
-									<div class="articleTitle">Wedding Registry Tips</div>
-									<div class="articleSummary">asdf</div>
-								</div>
-							</li>
-
-							<li class="articleRow">
-								<div>
-									<a href="#">
-									<img src="https://raw.githubusercontent.com/timweyel/timweyel.github.io/master/unit6/images/wedding-registry-tips.png" alt="Wedding Registry Tips" title="wedding registry tips" width="100px" height="80px"></a>
-									<div class="articleTitle">Wedding Registry Tips</div>
-									<div class="articleSummary">asdf</div>
-							</li>
-						</ul>
-			</section> -->
-		</div>
+			<section id="articles">
+<!-- 				<h3>Articles</h3> -->
+					<div>
+						<div><a href="#"><img src="https://raw.githubusercontent.com/timweyel/timweyel.github.io/master/unit6/images/wedding-registry-tips.png" alt="Wedding Registry Tips" title="wedding registry tips" width="100px" height="80px"></a>
+						<div id="articleRow">
+							<div id="articleTitle">
+								<h4>Wedding Registry Tips</h4>
+							</div>
+							<div id="articleSummary">
+								<p>Everything you should know about registering to get exactly what you want (and need).</p>
+							</div>
+						</div>
+					</div>
+					
+					<div>
+						<div><a href="#"><img src="https://raw.githubusercontent.com/timweyel/timweyel.github.io/master/unit6/images/wedding-registry-tips.png" alt="Wedding Registry Tips" title="wedding registry tips" width="100px" height="80px"></a>
+						<div id="articleRow">
+							<div id="articleTitle">
+								<h4>Wedding Registry Tips</h4>
+							</div>
+							<div id="articleSummary">
+								<p>asdf</p>
+							</div>
+						</div>
+					</div>
+			</section>
 	</body>
 </html>

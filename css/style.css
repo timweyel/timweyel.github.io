@@ -1,0 +1,139 @@
+html {
+   background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
+   background-size: cover;
+}
+
+body {
+   color: white;
+/*   text-align: center;
+*/   font-family: "Arial", sans-serif;
+   font: normal 300 1em'Open Sans', sans-serif;
+   overflow-x: hidden;
+}
+
+nav {
+   text-align: right;
+   float: right;
+   right: 0;
+   display: inline-block;
+   width: 100%;
+   margin: 8px 4px 8px 0;
+}
+
+#who-we-are {
+   margin-top: 300px;
+   text-align: center;
+}
+
+#specialization , #services-offered, #responsive-web-design{
+  float: left;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin-left: 295px;
+/*  width: 33%;
+*//*  text-align: center;
+*/}
+
+nav li {
+  display: inline;
+}
+
+/*li {
+  text-align: center;
+}*/
+
+ul a {
+  color: white;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+/*ul a:hover {
+  color: #333;
+}*/
+
+.right {
+  float: right;
+  height: 30px;
+  width: 20px;
+  background-color: none;
+}
+
+/*#logo {
+    background-color: #ffffff;
+    width: 1000px;
+    padding: 4 px;
+    border: 5px solid;
+    margin: 20px auto;
+    border-color: #000000;
+  }*/
+
+img {
+  display: block;
+  margin: 0 auto
+}
+
+/*a {
+  float: center;
+  width: 6em;
+  text-decoration: none;
+  color: #000000;
+  background-color: none;
+  padding: .2em .2em;
+  border-left: 70px solid #ffffff;
+}*/
+
+a:hover {
+  background-color: #C9B009;
+}
+
+p {
+  font-family: "Arial" sans-serif;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+   color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+h2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#content {
+  width: 290px;
+  float: left;
+  padding: 5px 15px;
+  color: #ffffff;
+}
+
+#middle {
+  width: 294px;
+  float: left;
+  padding: 5px 15px;
+  color: #ffffff;
+  margin: 0 5px 5px
+}
+
+#sidebar {
+  width: 270px;
+  padding: 5px 15px;
+  color: #ffffff;
+  float: left
+}

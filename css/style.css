@@ -1,6 +1,6 @@
 body {
   background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-size: cover, no-repeat; !important
   color: #fff;
   font-family: Titillium+Web, serif;
   overflow-x: hidden;
@@ -12,11 +12,11 @@ nav {
    right: 0;
    display: inline-block;
    width: 100%;
-   margin: 8px 4px 8px 0;
+   margin: .5em .5em .5em 0;
 }
 
 #who-we-are {
-   margin: 350px 0 100px 0;
+   margin: 20% 0 5% 0;
    text-align: center;
 }
 
@@ -33,12 +33,12 @@ nav li {
 
 ul a {
   color: #fff;
-  padding: 0 5px;
+  padding: 0 .5em;
   text-decoration: none;
 }
 
 li {
-  padding: 5px 0;
+  padding: .5em 0;
   text-align: center;
 }
 
@@ -75,4 +75,18 @@ h2 {
 h3 {
   font-size: 30px;
   color: #ffffff;
+}
+
+@media screen only and (min-width: 320px) {
+  img {
+    width: 320px;
+  }
+/*  #who-we-are {
+    margin: ;
+  }*/
+/*
+  #specialization , #services-offered, #responsive-web-design {
+    float: none;
+  }*/
+
 }

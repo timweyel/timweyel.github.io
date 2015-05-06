@@ -1,6 +1,7 @@
 body {
   background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
-  background-size: cover, no-repeat; !important
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   font-family: Titillium+Web, serif;
   overflow-x: hidden;
@@ -78,16 +79,16 @@ h3 {
 }
 
 @media screen only and (min-width: 320px) {
-  img {
-    width: 320px;
-    height: 100px;
+  #logo {
+    width: 310px;
   }
+
 /*  #who-we-are {
     margin: ;
-  }*/
-/*
+  }
+
   #specialization , #services-offered, #responsive-web-design {
     float: none;
-  }*/
-
+  }
+*/
 }

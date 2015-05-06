@@ -80,6 +80,7 @@ h3 {
 @media screen only and (min-width: 320px) {
   img {
     width: 320px;
+    height: 100px;
   }
 /*  #who-we-are {
     margin: ;

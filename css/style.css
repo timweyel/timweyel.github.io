@@ -1,11 +1,8 @@
-html {
-   background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
-   background-size: cover;
-}
-
 body {
+  background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
-  font-family: Titillium+Web, sans-serif;
+  font-family: Titillium+Web, serif;
 /*  font: normal 300 1em'Open Sans', sans-serif;
 */  overflow-x: hidden;
 }
@@ -20,7 +17,7 @@ nav {
 }
 
 #who-we-are {
-   margin-top: 300px;
+   margin: 350px 0 100px 0;
    text-align: center;
 }
 
@@ -30,17 +27,11 @@ nav {
   padding: 0;
   border: 0;
   margin-left: 300px;
-/*  width: 33%;
-*//*  text-align: center;
-*/}
+}
 
 nav li {
   display: inline;
 }
-
-/*li {
-  text-align: center;
-}*/
 
 ul a {
   color: #fff;
@@ -48,40 +39,23 @@ ul a {
   text-decoration: none;
 }
 
-/*ul a:hover {
-  color: #333;
-}*/
+li {
+  padding: 5px 0;
+  text-align: center;
+}
 
-.right {
+/*.right {
   float: right;
   height: 30px;
   width: 20px;
   background-color: none;
-}
+}*/
 
-/*#logo {
-    background-color: #ffffff;
-    width: 1000px;
-    padding: 4 px;
-    border: 5px solid;
-    margin: 20px auto;
-    border-color: #000000;
-  }*/
 
 img {
   display: block;
   margin: 0 auto
 }
-
-/*a {
-  float: center;
-  width: 6em;
-  text-decoration: none;
-  color: #000000;
-  background-color: none;
-  padding: .2em .2em;
-  border-left: 70px solid #ffffff;
-}*/
 
 a:hover {
   color: rgb(0,143,19);
@@ -93,6 +67,7 @@ p {
   margin-right: auto;
   font-size: 24px;
   color: #ffffff;
+  padding-top: 10px;
 }
 
 h1, h2, h3 {

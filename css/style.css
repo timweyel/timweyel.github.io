@@ -89,12 +89,11 @@ h3 {
   text-align: center;
 }
 
-#portfolio-images {
-  float: left;
+
+#portfolio-images img {
+    float: left;
   display: inline-block;
-  width: auto;
-  margin: 18% 0 0 10%;
-  padding-right: 5%;
+  margin: 19% 0 0 5%;
 }
 
 @media screen and (max-width: 360px) {

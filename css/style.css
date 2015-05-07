@@ -17,7 +17,7 @@ nav {
 }
 
 #who-we-are {
-   margin: 0 0 10% 0;
+   margin: 0 0 15% 0;
    text-align: center;
 }
 
@@ -64,24 +64,23 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-size: 24px;
-  color: #000000;
+  color: #0092DE;
   padding-top: 10px;
-}
-
-h1, h2, h3 {
-   color: #fff;
 }
 
 h1 {
   font-size: 50px;
   text-align: center;
-  color: #000000;
+  color: #0092DE;  
+  font-style: italic;
+  font-family: "Great Vibes";
 }
 
 h2 {
   font-size: 25px;
-  color: #000000;
+  color: #0092DE;
   text-align: center;
+  font-style: italic;
 }
 
 h3 {

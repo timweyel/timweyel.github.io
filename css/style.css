@@ -17,7 +17,7 @@ nav {
 }
 
 #who-we-are {
-   margin: 20% 0 0 0;
+   margin: 0 0 10% 0;
    text-align: center;
 }
 
@@ -64,7 +64,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-size: 24px;
-  color: #fff;
+  color: #000000;
   padding-top: 10px;
 }
 
@@ -74,11 +74,13 @@ h1, h2, h3 {
 
 h1 {
   font-size: 50px;
+  text-align: center;
+  color: #000000;
 }
 
 h2 {
   font-size: 25px;
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 

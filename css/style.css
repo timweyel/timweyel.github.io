@@ -90,52 +90,101 @@ h3 {
 
 @media screen and (max-width: 360px) {
 
-#logo {
-  text-align: center;
-  width: 98%;
+  #logo {
+    text-align: center;
+    width: 98%;
+  }
+
+  #logo img {
+    width: 100%;
+  }
+
+  #who-we-are {
+    margin-top: 15%;
+    margin-bottom: 35%;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  li {
+    font-size: 13px;
+    line-height: .5em;
+  }
+
+  .descriptions {
+    float: block;
+    text-align: center;
+    width: 100%;
+  }
 }
 
-#logo img {
-  width: 100%;
-}
+@media screen and (max-width: 320px) {
 
-#who-we-are {
-  margin-top: 15%;
-  margin-bottom: 35%;
-}
+  #logo {
+    text-align: center;
+    width: 98%;
+  }
 
-nav {
-  float: none;
-  text-align: center;
-}
+  #logo img {
+    width: 100%;
+  }
 
-h2 {
-  font-size: 16px;
-  color: #000000;
-  font-weight: 600;
-}
+  #who-we-are {
+    margin-top: 15%;
+    margin-bottom: 35%;
+  }
 
-h3 {
-  font-size: 16px;
-}
+  nav {
+    float: none;
+    text-align: center;
+  }
 
-p {
-  font-size: 14px;
-  color: #000000;
-  font-weight: 600;
-  line-height: 1.3em;
-}
+  h2 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+  }
 
-li {
-  font-size: 13px;
-  line-height: .5em;
-}
+  h3 {
+    font-size: 16px;
+  }
 
-.descriptions {
-  float: block;
-  text-align: center;
-  width: 100%;
+  p {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
 
-}
+  li {
+    font-size: 13px;
+    line-height: .5em;
+  }
 
+  .descriptions {
+    float: block;
+    text-align: center;
+    width: 100%;
+  }
 }
+}  

@@ -88,7 +88,7 @@ h3 {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
 
 #logo {
   text-align: center;
@@ -100,7 +100,7 @@ h3 {
 }
 
 #who-we-are {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-bottom: 35%;
 }
 
@@ -123,11 +123,12 @@ p {
   font-size: 14px;
   color: #000000;
   font-weight: 600;
+  line-height: 1.3em;
 }
 
 li {
-  font-size: 14px;
-  padding: 0;
+  font-size: 13px;
+  line-height: .5em;
 }
 
 .descriptions {

@@ -83,8 +83,9 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -99,8 +100,8 @@ h3 {
 }
 
 #who-we-are {
-  margin-top: 80%;
-  margin-bottom: 5%;
+  margin-top: 20%;
+  margin-bottom: 35%;
 }
 
 nav {
@@ -109,11 +110,19 @@ nav {
 }
 
 h2 {
-  font-size: 16px ;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 p {
   font-size: 14px;
+  color: #000000;
+  font-weight: 600;
 }
 
 li {

@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-family: Titillium+Web:300italic, serif;
+  font-family: "Titillium Web", serif;
   overflow-x: hidden;
 }
 
@@ -17,16 +17,24 @@ nav {
 }
 
 #who-we-are {
-   margin: 20% 0 5% 0;
+   margin: 20% 0 0 0;
    text-align: center;
 }
 
-#specialization , #services-offered, #responsive-web-design {
+/*#specialization , #services-offered, #responsive-web-design {
   float: left;
   padding: 0;
   border: 0;
   margin-left: 16%;
-}
+}*/
+
+.descriptions {
+  float: left;
+  width: 33%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+/*  border: 1px solid red;
+*/}
 
 nav li {
   display: inline;
@@ -71,6 +79,7 @@ h1 {
 h2 {
   font-size: 25px;
   color: #fff;
+  text-align: center;
 }
 
 h3 {
@@ -78,13 +87,15 @@ h3 {
   color: #fff;
 }
 
-@media screen only and (min-width: 320px) {
-  img {
-
-  }
+@media screen and (max-width: 480px) {
 
   #logo {
-    width: 310px;
+    text-align: center;
+    width: 98%;
+  }
+
+  #logo img {
+    width: 100%;
   }
 
 /*  #who-we-are {

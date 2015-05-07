@@ -10,8 +10,8 @@ body {
 nav {
    text-align: right;
    float: right;
-   right: 0;
-   display: inline-block;
+/*   right: 0;
+*/   display: inline-block;
    width: 100%;
    margin: .5em .5em .5em 0;
 }
@@ -89,21 +89,43 @@ h3 {
 
 @media screen and (max-width: 480px) {
 
-  #logo {
-    text-align: center;
-    width: 98%;
-  }
+#logo {
+  text-align: center;
+  width: 98%;
+}
 
-  #logo img {
-    width: 100%;
-  }
+#logo img {
+  width: 100%;
+}
 
-/*  #who-we-are {
-    margin: ;
-  }*/
+#who-we-are {
+  margin-top: 80%;
+  margin-bottom: 5%;
+}
 
-  #specialization , #services-offered, #responsive-web-design {
-    float: none;
-  }
+nav {
+  float: none;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px ;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  font-size: 14px;
+  padding: 0;
+}
+
+.descriptions {
+  float: block;
+  text-align: center;
+  width: 100%;
+
+}
 
 }

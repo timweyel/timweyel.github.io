@@ -1,10 +1,11 @@
 body {
-  background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
+/*  background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   color: #fff;
   font-family: "Titillium Web", serif;
   overflow-x: hidden;
+  background-color: #000000;
 }
 
 nav {
@@ -90,10 +91,16 @@ h3 {
 }
 
 
-#portfolio-images img {
-    float: left;
+#portfolio-images-row1 img {
+  float: left;
   display: inline-block;
-  margin: 19% 0 0 5%;
+  margin: 5% 0 0 4%;
+}
+
+#portfolio-images-row2 img {
+  float: left;
+  display: inline-block;
+  margin: 5% 0 0 4%;
 }
 
 @media screen and (max-width: 360px) {

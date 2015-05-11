@@ -5,8 +5,8 @@ body {
   color: #fff;
   font-family: "Titillium Web", serif;
   overflow-x: hidden;
-  background-color: #000000;
-}
+/*  background-color: #000000;
+*/}
 
 nav {
    text-align: right;
@@ -138,6 +138,7 @@ h3 {
     color: #000000;
     font-weight: 600;
     line-height: 1.3em;
+    margin: 0 18%;
   }
 
   li {
@@ -150,13 +151,22 @@ h3 {
     text-align: center;
     width: 100%;
   }
+
+  #portfolio-images-row1 img {
+  float: none;
+  display: block;
+  margin: 5% 0 0 1.5%%;
+  text-align: center;
+  width: 350px;
+  height: 194px;
+
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
   #logo {
     text-align: center;
-    width: 98%;
+    width: 100%;
   }
 
   #logo img {
@@ -201,13 +211,20 @@ h3 {
     text-align: center;
     width: 100%;
   }
+
+/*  #portfolio-images-row1 img {
+    float: none;
+  display: block;
+  margin: 5% 5% 0 5%;
+  text-align: center;*/
+}
 }  
 
-@media screen and (max-width: 1040px) {
+/*@media screen and (max-width: 1040px) {
 
   #logo {
     text-align: center;
-    width: 98%;
+    width: 100%;
   }
 
   #logo img {
@@ -251,6 +268,6 @@ h3 {
   .descriptions {
     float: none;
     text-align: center;
-    width: 33.333%;
+    width: 100%;
   }
-}  
+}  */

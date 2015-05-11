@@ -11,15 +11,15 @@ body {
 nav {
    text-align: right;
    float: right;
-/*   right: 0;
-*/   display: inline-block;
+   display: inline-block;
    width: 100%;
    margin: .5em .5em .5em 0;
 }
 
 #who-we-are {
-   margin: 0 0 15% 0;
+   margin: 5% 0 13% 0;
    text-align: center;
+   clear: both;
 }
 
 /*#specialization , #services-offered, #responsive-web-design {
@@ -70,11 +70,14 @@ p {
 }
 
 h1 {
+/*  float: left;
+*/  display: inline-block;
   font-size: 50px;
-  text-align: center;
+/*  text-align: center;*/
   color: #0092DE;  
   font-style: italic;
   font-family: "Great Vibes";
+  margin: 4% 0 0 3%;
 }
 
 h2 {
@@ -90,10 +93,17 @@ h3 {
   text-align: center;
 }
 
+#logo img{
+  float: left;
+  margin-left: 33%;
+/*  margin-right: 60%;
+*/}
+
 #portfolio-images-row1 img {
   float: left;
   display: inline-block;
-  margin: 5% 0 0 4%;
+  margin-left: 4%;
+  vertical-align: center;
 }
 
 #portfolio-images-row2 img {
@@ -104,14 +114,14 @@ h3 {
 
 @media screen and (max-width: 360px) {
 
-  #logo {
+ /* #logo {
     text-align: center;
     width: 100%;
   }
 
   #logo img {
     width: 100%;
-  }
+  }*/
 
   #who-we-are {
     margin-top: 15%;
@@ -122,6 +132,17 @@ h3 {
     float: none;
     text-align: center;
   }
+
+  h1 {/*
+  float: left;
+  display: inline-block;*/
+  font-size: 10px;
+/*  text-align: center;*/
+  color: #0092DE;  
+  font-style: italic;
+  font-family: "Great Vibes";
+  margin: 4% 0 0 3%;
+}
 
   h2 {
     font-size: 16px;
@@ -173,14 +194,14 @@ h3 {
 
 @media screen and (max-width: 320px) {
 
-  #logo {
+ /* #logo {
     text-align: center;
     width: 100%;
   }
 
   #logo img {
     width: 100%;
-  }
+  }*/
 
   #who-we-are {
     margin-top: 12%;
@@ -191,6 +212,17 @@ h3 {
     float: none;
     text-align: center;
   }
+
+  h1 {/*
+  float: left;
+  display: inline-block;*/
+  font-size: 10px;
+/*  text-align: center;*/
+  color: #0092DE;  
+  font-style: italic;
+  font-family: "Great Vibes";
+  margin: 4% 0 0 3%;
+}
 
   h2 {
     font-size: 16px;
@@ -232,6 +264,41 @@ h3 {
 }  
 
 @media screen and (max-width: 1024px) {
+
+  #who-we-are {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+h1 {
+/*  float: left;
+*/  display: inline-block;
+  font-size: 50px;
+/*  text-align: center;*/
+  color: #0092DE;  
+  font-style: italic;
+  font-family: "Great Vibes";
+  margin: 5% 0 0 3%;
+}
+
+/*h2 {
+  font-size: 25px;
+  color: #0092DE;
+  text-align: center;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}*/
+
+#logo img{
+  float: left;
+  margin-left: 20%;
+/*  margin-right: 60%;
+*/}
 
   #portfolio-images-row1 img {
   float: none;

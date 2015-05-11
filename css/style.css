@@ -1,7 +1,7 @@
 body {
-/*  background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
+  background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   color: #fff;
   font-family: "Titillium Web", serif;
   overflow-x: hidden;
@@ -90,7 +90,6 @@ h3 {
   text-align: center;
 }
 
-
 #portfolio-images-row1 img {
   float: left;
   display: inline-block;
@@ -107,7 +106,7 @@ h3 {
 
   #logo {
     text-align: center;
-    width: 98%;
+    width: 100%;
   }
 
   #logo img {
@@ -147,13 +146,13 @@ h3 {
   }
 
   .descriptions {
-    float: block;
+    float: none;
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 
   #logo {
     text-align: center;
@@ -198,7 +197,7 @@ h3 {
   }
 
   .descriptions {
-    float: block;
+    float: none;
     text-align: center;
     width: 100%;
   }
@@ -250,7 +249,7 @@ h3 {
   }
 
   .descriptions {
-    float: left;
+    float: none;
     text-align: center;
     width: 33.333%;
   }

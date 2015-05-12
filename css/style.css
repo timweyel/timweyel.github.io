@@ -114,13 +114,18 @@ h3 {
 
 @media screen and (max-width: 360px) {
 
- /* #logo {
+  #logo {
     text-align: center;
     width: 100%;
   }
 
-  #logo img {
+/*  #logo img {
     width: 100%;
+  }*/
+
+ /* #logo {
+    width: 100px;
+    height: 100px;
   }*/
 
   #who-we-are {
@@ -142,7 +147,7 @@ h3 {
   font-style: italic;
   font-family: "Great Vibes";
   margin: 4% 0 0 3%;
-}
+  }
 
   h2 {
     font-size: 16px;

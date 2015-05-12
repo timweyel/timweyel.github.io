@@ -114,16 +114,14 @@ h3 {
 
 @media screen and (max-width: 360px) {
 
-  #logo {
-    text-align: center;
-   /* width: 100%;*/
-/*    width: 100px;
-    height: 100px;*/
+  #logo img {
+    float: left;
+    margin-left: 21%;
   }
 
   #who-we-are {
-    margin-top: 15%;
-    margin-bottom: 35%;
+    margin-top: 25%;
+    margin-bottom: 15%;
   }
 
   nav {
@@ -131,15 +129,15 @@ h3 {
     text-align: center;
   }
 
-  h1 {/*
-  float: left;
-  display: inline-block;*/
-  font-size: 10px;
-/*  text-align: center;*/
+  h1 {
+/*  float: left;
+  display: inline-block;
+*/  font-size: 30px;
+  text-align: center;
   color: #0092DE;  
-  font-style: italic;/*
-  font-family: "Great Vibes";*/
-  margin: 4% 0 0 3%;
+  font-style: italic;
+  font-family: "Great Vibes";
+  margin: 4% 0 0 18%;
   }
 
   h2 {
@@ -202,8 +200,8 @@ h3 {
   }*/
 
   #who-we-are {
-    margin-top: 12%;
-    margin-bottom: 30%;
+    margin-top: 18%;
+    margin-bottom: 9%;
   }
 
   nav {
@@ -214,17 +212,17 @@ h3 {
   h1 {/*
   float: left;
   display: inline-block;*/
-  font-size: 10px;
+  font-size: 30px;
 /*  text-align: center;*/
   color: #0092DE;  
   font-style: italic;
   font-family: "Great Vibes";
-  margin: 4% 0 0 3%;
+  margin: 4% 0 0 17%;
 }
 
   h2 {
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
   }
 
@@ -235,7 +233,7 @@ h3 {
 
   p {
     font-size: 14px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
     line-height: 1.3em;
   }
@@ -259,52 +257,4 @@ h3 {
   width: 310px;
   height: 178px;
   }
-}  
-
-@media screen and (max-width: 1024px) {
-
-  #who-we-are {
-    margin-top: 10%;
-    margin-bottom: 15%;
-  }
-
-h1 {
-/*  float: left;
-*/  display: inline-block;
-  font-size: 50px;
-/*  text-align: center;*/
-  color: #0092DE;  
-  font-style: italic;
-  font-family: "Great Vibes";
-  margin: 5% 0 0 3%;
-}
-
-/*h2 {
-  font-size: 25px;
-  color: #0092DE;
-  text-align: center;
-  font-style: italic;
-}
-
-h3 {
-  font-size: 25px;
-  color: #fff;
-  text-align: center;
-}*/
-
-#logo img{
-  float: left;
-  margin-left: 20%;
-/*  margin-right: 60%;
-*/}
-
-  #portfolio-images-row1 img {
-  float: none;
-/*  display: block;
-*/  margin: 7% 0 0 8%;
-  text-align: center;
-/*  width: 310px;
-  height: 178px;*/
-  }
-
-}  
+}    

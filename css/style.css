@@ -3,39 +3,33 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   
-  font-family: "Titillium Web", serif;
+
   overflow-x: hidden;
   background-color: #000000;*/
 
 
 /*    height: 200px;*/
-    background: -webkit-linear-gradient(left, rgba(39,46,101,.75), rgba(39,46,101,1)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, rgba(36,46,101,.75), rgba(39,49,101,1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, rgba(36,46,101,.75), rgba(36,46,101,1)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, rgba(36,46,101,.75), rgba(36,46,101,1)); /* Standard syntax (must be last) */
-    color: #fff;
-  }
+/*  font-family: "Great Vibes", sans-serif;*/
+  font-family: "Niconne";
+  background: -webkit-linear-gradient(left, rgba(39,46,101,.75), rgba(39,46,101,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(36,46,101,.75), rgba(39,49,101,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(36,46,101,.75), rgba(36,46,101,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(36,46,101,.75), rgba(36,46,101,1)); /* Standard syntax (must be last) */
+  color: #fff;
+}
 
 nav {
    text-align: right;
    float: right;
-   display: inline-block;
    width: 100%;
    margin: .5em .5em .5em 0;
 }
 
 #who-we-are {
-   margin: 5% 0 13% 0;
+   margin: 5% 0 5% 0;
    text-align: center;
    clear: both;
 }
-
-/*#specialization , #services-offered, #responsive-web-design {
-  float: left;
-  padding: 0;
-  border: 0;
-  margin-left: 16%;
-}*/
 
 .descriptions {
   float: left;
@@ -72,7 +66,7 @@ a:hover {
 p {
   margin-left: auto;
   margin-right: auto;
-  font-size: 24px;
+  font-size: 28px;
   color: #0092DE;
   padding-top: 10px;
 }
@@ -83,20 +77,20 @@ h1 {
   font-size: 50px;
   text-align: center;
   color: #0092DE;  
-  font-style: italic;
-  font-family: "Great Vibes";
+  font-style: italic;/*
+  font-family: "Great Vibes";*/
   margin: 2% 0;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 36px;
   color: #0092DE;
   text-align: center;
   font-style: italic;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 36px;
   color: #fff;
   text-align: center;
 }
@@ -127,7 +121,7 @@ h3 {
 
   #who-we-are {
     margin-top: 25%;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
   }
 
   nav {
@@ -135,24 +129,22 @@ h3 {
     text-align: center;
   }
 
-  h1 {
-  float: left;
-  display: block;
-  font-size: 30px;
-  text-align: center;
-  color: #fff;  
-  font-style: italic;
-  font-family: "Great Vibes";
+   h1 {
+    float: left;
+    display: block;
+    font-size: 30px;
+    color: #0092DE;/*
+    margin: 4% 0 4% 21%;*/
+    text-align: center;
   }
 
   h2 {
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   p {
@@ -163,7 +155,7 @@ h3 {
   }
 
   li {
-    font-size: 13px;
+    font-size: 20px;
     line-height: .5em;
   }
 
@@ -173,9 +165,10 @@ h3 {
     width: 100%;
   }
 
-  #portfolio-h1 {
-    margin: 4% 0 4% 37%;
-}
+  #portfolio-h1 {/*
+    margin: 4% 0 4% 37%;*/
+    text-align: center;
+  }
 
   #portfolio-images-row1 img {
     float: none;
@@ -198,18 +191,14 @@ h3 {
 
 @media screen and (max-width: 320px) {
 
- /* #logo {
-    text-align: center;
-    width: 100%;
-  }
-
-  #logo img {
-    width: 100%;
-  }*/
-
   #who-we-are {
     margin-top: 18%;
     margin-bottom: 9%;
+  }
+
+  #logo img {
+    float: left;
+    margin-left: 18%;
   }
 
   nav {
@@ -217,16 +206,11 @@ h3 {
     text-align: center;
   }
 
-  h1 {/*
-  float: left;
-  display: inline-block;*/
+  h1 {
   font-size: 30px;
-/*  text-align: center;*/
-  color: #fff;  
-  font-style: italic;
-  font-family: "Great Vibes";
-  margin: 4% 0 0 17%;
-}
+  color: #0092DE;
+  margin: 4% 0 4% 19%;
+  }
 
   h2 {
     font-size: 16px;
@@ -246,7 +230,7 @@ h3 {
   }
 
   li {
-    font-size: 13px;
+    font-size: 20px;
     line-height: .5em;
   }
 
@@ -256,75 +240,82 @@ h3 {
     width: 100%;
   }
 
-    #portfolio-h1 {
-    margin: 4% 0 4% 38%;
-}
+  #portfolio-h1 {
+    margin: 4% 0 4% 34%;
+  }
 
   #portfolio-images-row1 img {
-  float: none;
-  display: block;
-  margin: 5% 0 0 1.5%;
-  text-align: center;
-  width: 310px;
-  height: 178px;
+    float: none;
+    display: block;
+    margin: 5% 0 0 1.5%;
+    text-align: center;
+    width: 310px;
+    height: 178px;
   }
+  
+  #portfolio-images-row2 img {
+    float: none;
+    display: block;
+    margin: 5% 0 0 1.5%;
+    text-align: center;
+    width: 310px;
+    height: 178px;
+  }  
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1030px) {
 
   #who-we-are {
     margin-top: 7%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
   }
 
-h1 {
-  float: left;
-  display: block;
-  font-size: 50px;
-/*  text-align: center;*/
-  color: #fff;  
-  font-style: italic;
-  font-family: "Great Vibes";
-  margin: 7.5%% 50%;
-}
+   h1 {
+    float: left;
+    display: block;
+    font-size: 50px;
+    color: #0092DE;
+    margin: 4% 0 4% 34%;
+  }
 
-h2 {
-  font-size: 25px;
-  color: #0092DE;
-  text-align: center;
-  font-style: italic;
-}
+  h2 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+  }
 
-h3 {
-  font-size: 25px;
-  color: #fff;
-  text-align: center;
-}
+  h3 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+  }
 
-#logo img{
-  float: left;
-  margin-left: 40%;
-}
+  p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.3em;
+  }
+
+  #logo img{
+    float: left;
+    margin-left: 40%;
+  }
 
   #portfolio-h1 {
-  margin: 4% 42.5% -4% 42.5%;
-}
-
+    margin: 4% 42.5% -4% 42.5%;
+  }
 
   #portfolio-images-row1 img {
-  float: left;
-/*  display: block;
-*/  margin: 7% 0 0 8%;
-  text-align: center;
-/*  width: 310px;
-  height: 178px;*/
+    float: left;
+    margin: 7% 0 0 8%;
+    text-align: center;
   }
 
   #portfolio-images-row2 img {
     float: left;
     display: inline-block;
-    margin: 5% 0 0 1.5%;
+    margin: 7% 0 0 8%;
     text-align: center;
-    width: 350px;
-    height: 194px;
   }
+}

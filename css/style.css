@@ -26,7 +26,7 @@ nav {
 }
 
 #who-we-are {
-   margin: 5% 0 5% 0;
+   margin: 2% 0;
    text-align: center;
    clear: both;
 }
@@ -67,7 +67,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-size: 28px;
-  color: #0092DE;
+  color: #fff;
   padding-top: 10px;
 }
 
@@ -84,7 +84,7 @@ h1 {
 
 h2 {
   font-size: 36px;
-  color: #0092DE;
+  color: #fff;
   text-align: center;
   font-style: italic;
 }
@@ -129,12 +129,12 @@ h3 {
     text-align: center;
   }
 
-   h1 {
+  h1 {
     float: left;
     display: block;
     font-size: 30px;
-    color: #0092DE;/*
-    margin: 4% 0 4% 21%;*/
+    color: #0092DE;
+    margin: 4% 0 4% 21%;
     text-align: center;
   }
 
@@ -143,19 +143,19 @@ h3 {
     color: #fff;
   }
 
-  h3 {
-    font-size: 18px;
+  h3 {   
+    font-size: 20px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
     line-height: 1.3em;
     margin: 0 18%;
   }
 
-  li {
-    font-size: 20px;
+  li {    
+    font-size: 18px;
     line-height: .5em;
   }
 
@@ -163,6 +163,8 @@ h3 {
     float: none;
     text-align: center;
     width: 100%;
+    border-top: solid, #fff;
+    border-bottom: solid, #fff;
   }
 
   #portfolio-h1 {/*
@@ -292,7 +294,7 @@ h3 {
   }
 
   p {
-    font-size: 20px;
+    font-size: 26px;
     color: #ffffff;
     line-height: 1.3em;
   }

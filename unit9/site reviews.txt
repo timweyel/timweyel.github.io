@@ -1,0 +1,23 @@
+http://www.businessoffashion.com/
+
+layout:
+fairly typical fashion/news layout
+I like how if you scroll down so the hero image is aligned with the top, then you have awesome balance wih the hero image and the two images below and then the advertisements on the right. 
+Scrolling down further, there's more great spacing and flow. Your eye very easily scans the page to the highlights
+
+typography: font is mostly serif with the exception of the nav bar. The hierarchy between the headers and paragraphs are contrasted well because of their weighting. The dates and authors are san serif and a lighter shade that both makes them stand out and doesn't at the same time.
+
+navigation:
+You can get to anywhere on the site from the nav bar. most of the relevant and high-traffic content is all on the home page. Lower on the page, you have samples of the content category that is available on the rest of the site.
+
+
+http://www.spectrumpowderworks.com/
+
+layout:
+simple and artistic. the sliding thumbnails give the visitor a sense that the company is artful and 'techy'.
+
+typography:
+header logo looks like it was sprayed with paint
+i think the footer links could be centered or spread out to be the width of the thumbnails
+
+navigation: simple, to the point, no thinking involved.

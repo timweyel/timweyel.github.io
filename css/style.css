@@ -11,6 +11,7 @@ body {
 /*    height: 200px;*/
 /*  font-family: "Great Vibes", sans-serif;*/
   font-family: "Niconne";
+  font-family: "Roboto";  
   background: -webkit-linear-gradient(left, rgba(39,46,101,.75), rgba(39,46,101,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, rgba(36,46,101,.75), rgba(39,49,101,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, rgba(36,46,101,.75), rgba(36,46,101,1)); /* For Firefox 3.6 to 15 */
@@ -54,9 +55,8 @@ li {
   font-size: 24px;
 }
 
-img {
-  display: block;
-  margin: 0 auto
+#logo {
+  text-align: center;
 }
 
 a:hover {
@@ -67,18 +67,18 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-size: 28px;
-  color: #fff;
+  color: #0092DE;
   padding-top: 10px;
 }
 
 h1 {
 /*  float: left;
 */  /*display: inline-block;*/
-  font-size: 50px;
+  font-size: 80px;
   text-align: center;
   color: #0092DE;  
-  font-style: italic;/*
-  font-family: "Great Vibes";*/
+  font-style: italic;
+  font-family: "Niconne";
   margin: 2% 0;
 }
 
@@ -86,8 +86,8 @@ h2 {
   font-size: 36px;
   color: #fff;
   text-align: center;
-  font-style: italic;
-}
+/*  font-style: italic;
+*/}
 
 h3 {
   font-size: 36px;
@@ -95,99 +95,99 @@ h3 {
   text-align: center;
 }
 
-#logo img{
+/*#logo img {
   text-align: center;
-}
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}*/
 
-#portfolio-images-row1 img {
-  float: left;
-  display: inline-block;
+#wrapper {
   margin-left: 4%;
-  vertical-align: center;
 }
 
-#portfolio-images-row2 img {
+#thumbnail img {
   float: left;
   display: inline-block;
-  margin: 5% 0 0 4%;
+  width: 21%;
+  padding: 0 4% 4% 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 @media screen and (max-width: 360px) {
 
-  #logo img {
-    float: left;
-    margin-left: 21%;
-  }
-
   #who-we-are {
-    margin-top: 25%;
-    margin-bottom: 7%;
+    margin-top: 7%;
+    margin-bottom: 5%;
   }
 
-  nav {
-    float: none;
-    text-align: center;
+  #logo img {
+    width: 100px;
+    height: 100px;
   }
 
   h1 {
-    float: left;
-    display: block;
-    font-size: 30px;
-    color: #0092DE;
-    margin: 4% 0 4% 21%;
+  /*  float: left;
+  */  /*display: inline-block;*/
+    font-size: 20px;
     text-align: center;
-  }
+    color: #0092DE;  
+    font-style: italic;
+    font-family: "Niconne";
+    margin: 2% 0;
+}
 
   h2 {
-    font-size: 18px;
+    font-size: 25px;
     color: #fff;
-  }
+    text-align: center;
+/*    font-style: italic;
+*/  }
 
-  h3 {   
-    font-size: 20px;
+  h3 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
   }
 
   p {
-    font-size: 18px;
-    color: #ffffff;
+    font-size: 26px;
+    color: #0092DE;
     line-height: 1.3em;
-    margin: 0 18%;
   }
 
-  li {    
-    font-size: 18px;
-    line-height: .5em;
+  #portfolio-h1 {
+/*    margin: 4% 42.5% 4% 42.5%;
+*/  
+    font-size: 35px;
+}
+
+  #wrapper {
+    margin: 0 auto;
   }
 
-  .descriptions {
-    float: none;
-    text-align: center;
-    width: 100%;
-    border-top: solid, #fff;
-    border-bottom: solid, #fff;
+  #thumbnail {
+/*    float: left;
+    display: inline-block;*/
+/*    width: 30%;
+*/*//*    padding: 0 4% 4% 0;
   }
 
-  #portfolio-h1 {/*
-    margin: 4% 0 4% 37%;*/
-    text-align: center;
-  }
-
-  #portfolio-images-row1 img {
-    float: none;
+  .clearfix:after {
+    visibility: hidden;
     display: block;
-    margin: 5% 0 0 1.5%;
-    text-align: center;
-    width: 350px;
-    height: 194px;
-  }
-
-  #portfolio-images-row2 img {
-    float: none;
-    display: block;
-    margin: 5% 0 0 1.5%;
-    text-align: center;
-    width: 350px;
-    height: 194px;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
   }
 }
 
@@ -199,10 +199,10 @@ h3 {
   }
 
   #logo img {
-    float: left;
-    margin-left: 18%;
+    width: 100px;
+    height: 100px;
   }
-
+ 
   nav {
     float: none;
     text-align: center;
@@ -227,7 +227,7 @@ h3 {
 
   p {
     font-size: 14px;
-    color: #ffffff;
+    color: #0092DE;
     line-height: 1.3em;
   }
 
@@ -246,46 +246,48 @@ h3 {
     margin: 4% 0 4% 34%;
   }
 
-  #portfolio-images-row1 img {
-    float: none;
-    display: block;
-    margin: 5% 0 0 1.5%;
-    text-align: center;
-    width: 310px;
-    height: 178px;
+  #wrapper {
+    margin: 0 auto;
   }
-  
-  #portfolio-images-row2 img {
-    float: none;
+
+  #thumbnail img {
+    float: left;
+    width: 30%;
+    padding: 0 4% 4% 0;
+  }
+
+  .clearfix:after {
+    visibility: hidden;
     display: block;
-    margin: 5% 0 0 1.5%;
-    text-align: center;
-    width: 310px;
-    height: 178px;
-  }  
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 
   #who-we-are {
     margin-top: 7%;
     margin-bottom: 5%;
   }
 
-   h1 {
+   h1 {/*
     float: left;
-    display: block;
+    display: block;*/
     font-size: 50px;
-    color: #0092DE;
-    margin: 4% 0 4% 34%;
+    color: #0092DE;/*
+    margin: 4% 0 4% 34%;*/
+    text-align: center;
   }
 
   h2 {
     font-size: 25px;
     color: #fff;
     text-align: center;
-    font-style: italic;
-  }
+/*    font-style: italic;
+*/  }
 
   h3 {
     font-size: 25px;
@@ -295,29 +297,53 @@ h3 {
 
   p {
     font-size: 26px;
-    color: #ffffff;
+    color: #0092DE;
     line-height: 1.3em;
   }
 
-  #logo img{
-    float: left;
-    margin-left: 40%;
+/*  #portfolio-h1 {
+    margin: 4% 42.5% 4% 42.5%;
+  }*/
+
+  #wrapper {  
+    margin-left: 4%;
   }
 
-  #portfolio-h1 {
-    margin: 4% 42.5% -4% 42.5%;
+  #thumbnail img {
+    float: left;
+    width: 10%;
+/*    display: block;
+*//*    padding: 0 4% 4% 0;
+*/  }
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+/*  #wrapper {
+    margin: 0 auto;
+  }*/
+
+  #thumbnail img {
+    float: left;
+    width: 28%;
+    padding: 0 2% 4% 2%;
   }
 
-  #portfolio-images-row1 img {
-    float: left;
-    margin: 7% 0 0 8%;
-    text-align: center;
-  }
-
-  #portfolio-images-row2 img {
-    float: left;
-    display: inline-block;
-    margin: 7% 0 0 8%;
-    text-align: center;
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
   }
 }

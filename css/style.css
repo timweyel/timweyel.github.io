@@ -57,7 +57,18 @@ li {
 
 #logo {
   text-align: center;
+  width: 200px;
+  margin: 0 auto;
 }
+
+#logo img {
+  width: 100%;
+  text-align: center;
+}
+
+/*#portfolio-h1 {
+  margin: 0 auto;
+}*/
 
 a:hover {
   color: rgb(0,143,19);
@@ -95,23 +106,16 @@ h3 {
   text-align: center;
 }
 
-/*#logo img {
-  text-align: center;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-}*/
-
 #wrapper {
   margin-left: 4%;
 }
 
-#thumbnail img {
-  float: left;
-  display: inline-block;
-  width: 21%;
-  padding: 0 4% 4% 0;
-}
+  .thumbnail {
+    float: left;
+    display: inline-block;
+    width: 25%;
+    padding: 0 4% 4% 4%;
+  } 
 
 .clearfix:after {
   visibility: hidden;
@@ -120,6 +124,95 @@ h3 {
   content: " ";
   clear: both;
   height: 0;
+}
+
+@media screen and (max-width: 1600px) {
+
+  #wrapper {
+    margin-left: 4%;
+  }
+
+  .thumbnail img {
+    float: left;
+    width: 28%;
+    padding: 0 2% 4% 2%;
+  }
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  #who-we-are {
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+
+   h1 {/*
+    float: left;
+    display: block;
+    font-size: 50px;
+    color: #0092DE;/*
+    margin: 4% 0 4% 34%;*/
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+/*    font-style: italic;
+*/  }
+
+  h3 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+  }
+
+  p {
+    font-size: 26px;
+    color: #0092DE;
+    line-height: 1.3em;
+  }
+
+/*  #portfolio-h1 {
+    margin: 4% 42.5% 4% 42.5%;
+  }*/
+
+/*  #wrapper {  
+    margin-left: 15%;
+  }*/
+
+/*  .thumbnail img {
+     margin-right: 50%;
+     border: 1px solid red;
+     width: 50%;
+    display: inline-block;
+  }*/
+
+  .thumbnail {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    padding: 0 4% 4% 4%;
+  }
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -132,6 +225,11 @@ h3 {
   #logo img {
     width: 100px;
     height: 100px;
+  }
+  
+  nav {
+    float: none;
+    text-align: center;
   }
 
   h1 {
@@ -164,6 +262,11 @@ h3 {
     line-height: 1.3em;
   }
 
+  li {
+    font-size: 14px;
+    line-height: .5em;
+  }
+
   #portfolio-h1 {
 /*    margin: 4% 42.5% 4% 42.5%;
 */  
@@ -174,11 +277,11 @@ h3 {
     margin: 0 auto;
   }
 
-  #thumbnail {
-/*    float: left;
-    display: inline-block;*/
-/*    width: 30%;
-*/*//*    padding: 0 4% 4% 0;
+  .thumbnail {
+    float: left;
+    display: inline-block;
+    width: 90%;
+    padding: 0 5% 5% 5%;
   }
 
   .clearfix:after {
@@ -211,7 +314,9 @@ h3 {
   h1 {
   font-size: 30px;
   color: #0092DE;
-  margin: 4% 0 4% 19%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 2% 0;
   }
 
   h2 {
@@ -232,7 +337,7 @@ h3 {
   }
 
   li {
-    font-size: 20px;
+    font-size: 14px;
     line-height: .5em;
   }
 
@@ -242,100 +347,19 @@ h3 {
     width: 100%;
   }
 
-  #portfolio-h1 {
+  /*#portfolio-h1 {
     margin: 4% 0 4% 34%;
-  }
+  }*/
 
   #wrapper {
     margin: 0 auto;
   }
 
-  #thumbnail img {
+   .thumbnail {
     float: left;
-    width: 30%;
-    padding: 0 4% 4% 0;
-  }
-
-  .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-
-  #who-we-are {
-    margin-top: 7%;
-    margin-bottom: 5%;
-  }
-
-   h1 {/*
-    float: left;
-    display: block;*/
-    font-size: 50px;
-    color: #0092DE;/*
-    margin: 4% 0 4% 34%;*/
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-/*    font-style: italic;
-*/  }
-
-  h3 {
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-  }
-
-  p {
-    font-size: 26px;
-    color: #0092DE;
-    line-height: 1.3em;
-  }
-
-/*  #portfolio-h1 {
-    margin: 4% 42.5% 4% 42.5%;
-  }*/
-
-  #wrapper {  
-    margin-left: 4%;
-  }
-
-  #thumbnail img {
-    float: left;
-    width: 10%;
-/*    display: block;
-*//*    padding: 0 4% 4% 0;
-*/  }
-
-  .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-
-/*  #wrapper {
-    margin: 0 auto;
-  }*/
-
-  #thumbnail img {
-    float: left;
-    width: 28%;
-    padding: 0 2% 4% 2%;
+    display: inline-block;
+    width: 90%;
+    padding: 0 5% 5% 5%;
   }
 
   .clearfix:after {

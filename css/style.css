@@ -209,8 +209,8 @@ h3 {
   }
 
   #logo img {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
   }
 
   ul a {
@@ -228,7 +228,7 @@ h3 {
   h1 {
   /*  float: left;
   */  /*display: inline-block;*/
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     color: #0092DE;  
     font-style: italic;
@@ -256,14 +256,14 @@ h3 {
   }
 
   li {
-    font-size: 14px;
+    font-size: 18px;
     line-height: .5em;
   }
 
   #portfolio-h1 {
 /*    margin: 4% 42.5% 4% 42.5%;
 */  
-    font-size: 35px;
+    font-size: 40px;
 }
 
   #wrapper {

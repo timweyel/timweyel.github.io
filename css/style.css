@@ -29,16 +29,14 @@ nav {
    margin: 2% .5em .5em 6%;
 }
 
-#who-we-are {/*
-   margin: 2% 0;*/
+#who-we-are {
    text-align: center;
    clear: both;
 }
 
 .descriptions {
   float: left;
-  width: 18%;/*
-  margin-left: 15%;*/
+  width: 18%;
   padding: 2% 0 0 8%;
 }
 
@@ -80,8 +78,7 @@ li {
 #logo {
   margin: 2% 0 0 15%;
   float: left;
-  display: inline-block;/*
-  border: solid red 1px;*/
+  display: inline-block;
 }
 
 #logo img {
@@ -124,7 +121,6 @@ h1 {
   color: #0092DE;  
   font-style: italic;
   font-family: "Niconne";
-/*  margin: 2% 0;*/
 }
 
 h2 {
@@ -164,21 +160,30 @@ h3 {
 #logo {
   text-align: center;
 /*  width: 175px;*/
-  margin: 0 0 0 32%;
+  margin: 0 0 0 15%;
 }
 
 #logo img {
-  width: 85%;
+  margin-top: 25%;
 }
 
 #portfolio-h1 {
   display: inline-block;
-  padding: 3% 0 0 10%;
+  padding: 3% 0 0 7%;
+  width: 35%;
 }
 
-  #wrapper {
-    margin-left: 12 %;
-  }
+nav {
+  margin: 2% .5em .5em 9%;
+}
+
+ul {
+  margin-right: 0%;
+}
+
+#wrapper {
+  margin-left: 12 %;
+}
 
 .thumbnail img {
   float: left;
@@ -197,12 +202,17 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1460px) {
+
+  #logo img {
+    margin-top: 15%;
+  }
 
   #portfolio-h1 {
     display: inline-block;
-    padding: 4% 0 0 7%;
+    padding: 5% 0 0 6%;
     font-size: 65px;
+    margin-top: 1%;
   }
 
   li {
@@ -214,31 +224,84 @@ h3 {
     margin-bottom: 3%;
   }
 }
+
+@media screen and (max-width: 1400px) {
+
+  #portfolio-h1 {
+    padding: 4% 0 0 4%;
+  }
+
+  li {
+    padding: .2em 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  #portfolio-h1 {
+    padding: 4% 0 0 5%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+    #logo img {
+    width: 70%;
+  }
+
+  #portfolio-h1 {
+    padding: 5% 0 0 1%;
+    font-size: 50px;
+  }
+
+  #header {
+    margin-bottom: 1.5%;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  #logo img {
+    width: 65%;
+  }
+
+  #portfolio-h1 {
+    padding: 6% 0 0 1%;
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+  #header {
+    margin-bottom: 1.5%;
+  }
+
+  nav {
+    margin: 2% .5em .5em 7%;
+  }
+}
+
 
 @media screen and (max-width: 1200px) {
 
   #portfolio-h1 {
-    padding: 3% 0 0 8%;
-    font-size: 58px;
+    padding: 5% 0 0 0;
+    font-size: 50px;
+  }
+
+  nav {
+    margin: 2% .5em .5em 4%;
   }
 
   li {
-    padding: .5em 0;
+    line-height: .75em;
     text-align: center;
     font-size: 20px;
   }
-  #header {
-    margin-bottom: 3%;
-  }
 
-  #logo {
-    margin: 0 0 0 29%;
-  }
-
-  #logo img {
-    width: 75%;
+  nav {
+  margin: 2% .5em .5em 6%;
+  width: 12%;
   }
 }
+
 
 @media screen and (max-width: 1024px) {
 
@@ -275,12 +338,20 @@ h3 {
     line-height: 1.3em;
   }
 
+  #header {
+    margin-bottom: 4%
+  }
+
   #logo {
-    margin: 0 0 0 27%;
+    margin: 0 0 0 10%;
   }
 
   #portfolio-h1 {
-    padding: 4% 0 0 8%;
+    padding: 7% 0 0 2%;
+  }
+
+  nav {
+    margin: 3% .5em .5em 5%;
   }
 
   #wrapper {
@@ -290,7 +361,7 @@ h3 {
   .thumbnail img {
     float: left;
     width: 40%;
-    padding: 0 4% 4% 4%;
+    padding: 0 3% 4% 3%;
   } 
 
   .clearfix:after {
@@ -300,6 +371,26 @@ h3 {
     content: " ";
     clear: both;
     height: 0;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+
+  #portfolio-h1 {
+    padding: 8% 0 0 0;
+    width: 28%;
+  }
+
+  nav {
+    width:14%;
+    margin: 3% .5em .5em 8%;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  nav {
+    width: 17%;
+    margin: 3% .5em .5em 8%;
   }
 }
 
@@ -315,7 +406,7 @@ h3 {
   }*/
 
   #logo {
-    margin: 0 0 0 15%;
+    margin: 0 0 0 18%;
   }
 
   #logo img {
@@ -332,7 +423,9 @@ h3 {
   }
 
   nav {
+    width: 100%;
     text-align: center;
+    margin: 3% .5em .5em 4%;
   }
 
   ul {
@@ -376,7 +469,7 @@ h3 {
   }
 
   #portfolio-h1 {
-    padding: 4% 0 0 8%;
+    padding: 12% 0 0 8%;
     font-size: 38px;
 }
 
@@ -388,7 +481,7 @@ h3 {
   float: left;
  /* display: inline-block;*/
   width: 80%;
-  padding: 0 10% 6% 10%;
+  padding: 0 10% 6% 14%;
 }
 
   .clearfix:after {
@@ -420,10 +513,11 @@ h3 {
   nav {
     float: none;
     text-align: center;
+    margin: 3% .5em .5em 0;
   }
 
   #portfolio-h1 {
-    padding: 5% 0 0 8%;
+    padding: 14% 0 0 8%;
     font-size: 38px;
   }
 

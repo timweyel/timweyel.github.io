@@ -59,9 +59,13 @@ nav {
 
 .descriptions {
   float: left;
-  width: 19%;
+  width: 35%;
   padding: 2% 4%;
   margin-left: 2%;
+}
+
+.description img {
+  width: 20%;
 }
 
 .descriptions ul {

@@ -1,6 +1,6 @@
 body.index {
 /*  background: #fff url("http://i775.photobucket.com/albums/yy39/angelia-01/vfiles6194.jpg") no-repeat center center fixed;
-  
+  background-size: cover;
   background-repeat: no-repeat;
   
 
@@ -12,12 +12,11 @@ body.index {
 /*  font-family: "Great Vibes", sans-serif;*/
   font-family: "Niconne";
   font-family: "Roboto";  
-  background-size: 100% 100%;
-  background: -webkit-linear-gradient(top, rgba(39,46,101,0), rgba(39,46,101,1)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom, rgba(36,46,101,0), rgba(39,49,101,1)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom, rgba(36,46,101,0), rgba(36,46,101,1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, rgba(36,46,101,0), rgba(36,46,101,1)); /* Standard syntax (must be last)*/ 
-  /*background-color: rgb(225,225,225);*/
+/*  background: -webkit-linear-gradient(top, rgba(39,46,101,0), rgba(39,46,101,1));*/ /* For Safari 5.1 to 6.0 */
+/*  background: -o-linear-gradient(bottom, rgba(36,46,101,0), rgba(39,49,101,1));*/ /* For Opera 11.1 to 12.0 */
+/*  background: -moz-linear-gradient(bottom, rgba(36,46,101,0), rgba(36,46,101,1));*/ /* For Firefox 3.6 to 15 */
+/*  background: linear-gradient(to bottom, rgba(36,46,101,0), rgba(36,46,101,1)); *//* Standard syntax (must be last) */
+ background-color: rgb(225,225,225);
 }
 
 body.portfolio {
@@ -59,14 +58,15 @@ nav {
 
 .descriptions {
   float: left;
-  width: 35%;
-  padding: 2% 4%;
+  width: 15%;
+  padding: 2% 10%;
   margin-left: 2%;
+  display: inline-block;
 }
 
-.description img {
-  width: 20%;
-}
+/*.description img {
+  width: 25%;
+}*/
 
 .descriptions ul {
   float: left;
@@ -77,10 +77,10 @@ nav {
   color: rgb(160,160,160);
 }
 
-#descriptionsRow {
+/*#descriptionsRow {
   margin: 0 0 20% 11%;
 }
-
+*/
 nav li {
   display: inline-block;
 }
